@@ -1,0 +1,16 @@
+<div class="container" *ngIf="uye">
+  <h1>{{uye.KullaniciAdi}} Adlı Üyeye Ait Haberler</h1>
+  <h3 style="color:red" *ngIf="haberler?.length == 0">Henüz Bu Üye Haber Eklemedi!</h3>
+  <div *ngFor="let haber of haberler">
+    <h2>{{haber.Baslik}}</h2>
+    <p>
+      <b>Kategori : </b> {{haber.KategoriAdi}} &nbsp;&nbsp;
+      <b>Tarih : </b> {{haber.Tarih}} &nbsp;&nbsp;
+      <b>Yazan : </b> {{haber.UyeKadi}} &nbsp;&nbsp;
+      <a href="#" [routerLink]="['/haber',haber.HaberId]">Haber Oku</a>
+
+    </p>
+    <hr>
+  </div>
+
+</div>

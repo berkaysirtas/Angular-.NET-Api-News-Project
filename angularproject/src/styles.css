@@ -1,0 +1,301 @@
+/* You can add global styles to this file, an
+
+d also import other style files */
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: #ffff !important;
+}
+
+
+
+.container {
+    margin: 20px 10px 10px 10px;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.mat-drawer-container {
+    background: #0e1217 !important;
+}
+
+.mat-mdc-card-title {
+    color: #fff;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.0125em;
+    line-height: 2rem;
+
+}
+
+
+.font-light {
+    font-weight: 400 !important;
+    font-size: 14px;
+}
+
+.mat-mdc-card-header {
+    margin: 0;
+    padding: 0 !important;
+    align-items: start;
+}
+
+.navbar {
+    background: #221b4a;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mdc-card {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+mat-card-content p {
+    color: #ffffffcb;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-right: 12px;
+    max-height: 3.2em;
+    line-height: 1.6em;
+}
+
+.mat-drawer {
+    background: #0e1217 !important;
+    border-right: 1px solid #a8b3cf33 !important;
+
+}
+
+
+.mat-mdc-menu-panel.mat-mdc-menu-panel {
+    background: #1c1f26;
+    border: 1px solid #545d72;
+
+}
+
+.mat-mdc-card-subtitle {
+    color: #ffffffcb !important;
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.0178571429em;
+    line-height: 1.25rem;
+}
+
+.mat-mdc-card-subtitle i {
+    margin-right: 5px;
+
+}
+
+.mdc-list-item__primary-text {
+    color: #fff !important;
+}
+
+
+.example-card,
+.news-card {
+    border: 1px solid #a8b3cf33 !important;
+    border-radius: 8px !important;
+    background: #1c1f26 !important;
+    padding: 12px;
+    flex: 1;
+    height: 332px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 33.33%;
+    max-width: 300px;
+    height: 354px;
+}
+
+
+.news-img {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #a8b3cf33 !important;
+    width: 100%;
+}
+
+.news-img img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.mat-mdc-table {
+    background: #1c1f26 !important;
+    border: 1px solid #383e4c;
+    color: #fff !important;
+}
+
+.mat-mdc-paginator-container {
+    background: #1c1f26 !important;
+    border: 1px solid #383e4c;
+    color: #fff;
+}
+
+
+.mdc-data-table__pagination-total,
+.mdc-data-table__pagination-rows-per-page-label,
+.mdc-data-table__cell {
+    color: #fff;
+}
+
+.mdc-data-table__header-cell {
+    color: #fff;
+}
+
+.mdc-data-table__cell,
+.mdc-data-table__header-cell {
+    border-color: #545d72 !important;
+}
+
+.mat-mdc-text-field-wrapper {
+    background: #383e4c;
+}
+
+.mat-mdc-select-value,
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label,
+.mat-h2,
+.mat-headline-6,
+.mat-typography .mat-h2,
+.mat-typography .mat-headline-6,
+.mat-typography h2 {
+
+    color: #fff;
+}
+
+
+.mat-mdc-select-panel-above .mdc-menu-surface.mat-mdc-select-panel,
+.mdc-menu-surface.mat-mdc-select-panel {
+    background: #383e4c;
+}
+
+
+
+.news-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+}
+
+.news-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/* news detail */
+
+.news-detail {
+    padding: 4px;
+    background-color: #1c1f26;
+    border: 1px solid #383e4c;
+    border-radius: 8px;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.news-meta {
+    font-size: 0.9em;
+    color: #aaa !important;
+}
+
+.news-content {
+    margin: 2em 0;
+}
+
+.news-separator,
+.comment-separator {
+    border-color: #333;
+}
+
+.news-view-count {
+    background: #221b4a;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.comments-title {
+    margin-top: 2em;
+}
+
+.comment-item {
+    margin-bottom: 1em;
+}
+
+.comment-meta {
+    font-size: 0.8em;
+    color: #888 !important;
+}
+
+.login-warning {
+    color: #f00 !important;
+}
+
+.comment-form {
+    margin-top: 2em;
+}
+
+.comment-input {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.comment-submit {
+    background-color: #009688 !important;
+    color: white !important;
+}
+
+.mat-drawer-container {
+    background: #0e1217 !important;
+    color: #fff !important;
+}
+
+.news-detail-content {
+    background: #282c34;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 8px;
+
+}
+
+
+.mat-mdc-fab.mat-primary,
+.mat-mdc-mini-fab.mat-primary {
+    color: #fff;
+    background: #009688 !important;
+}
+
+
+.mat-mdc-dialog-container,
+.mdc-dialog__surface {
+    background: #1c1f26 !important;
+    color: #fff !important;
+}
+
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input:placeholder-shown+.mdc-floating-label,
+
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+    color: #fff !important;
+}

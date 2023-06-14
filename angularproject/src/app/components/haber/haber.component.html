@@ -1,0 +1,37 @@
+<div class="container news-detail" *ngIf="haber">
+  <p class="news-view-count">Bu Haber {{haber.Okunma}} Kez Okundu.</p>
+  <img class="news-image" [src]="haber.FotoUrl">
+  <div class="news-detail-content">
+    <h1 class="news-title">{{haber.Baslik}}</h1>
+    <p class="news-meta">
+      <span><b>Kategori : </b> {{haber.KategoriAdi}}</span>
+      <span><b>Tarih : </b> {{haber.Tarih | date:'dd.MM.yyyy HH:mm:ss'}}</span>
+      <span><b>Yazan : </b> {{haber.UyeKadi}}</span>
+    </p>
+    <hr class="news-separator">
+    <div class="news-content" [innerHTML]="haber.Icerik | safeHtml"></div>
+  </div>
+  <hr class="news-separator">
+
+  <h1 class="comments-title">Yorumlar</h1>
+  <div class="comment-item" *ngFor="let yorum of yorumlar">
+    <p class="comment-content">{{yorum.YorumIcerik}}</p>
+    <p class="comment-meta">
+      <span><b>Tarih : </b> {{yorum.Tarih | date:'dd.MM.yyyy HH:mm:ss'}}</span>
+      <span><b>Yazan : </b> {{yorum.KullaniciAdi}}</span>
+    </p>
+    <hr class="comment-separator">
+  </div>
+
+  <h3 class="login-warning" *ngIf="!apiServis.oturumKontrol()">Yorum Yapabilmek İçin <a href="#"
+      [routerLink]="['/login']">Oturum Açınız</a></h3>
+
+  <div class="comment-form" *ngIf="apiServis.oturumKontrol()">
+    <mat-form-field appearance="outline" class="comment-input">
+      <mat-label>Yorumunuz</mat-label>
+      <textarea matInput placeholder="Yorumunuz" #yorumMetni></textarea>
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="comment-submit" (click)="YorumEkle(yorumMetni.value)">Yorum
+      Ekle</button>
+  </div>
+</div>
