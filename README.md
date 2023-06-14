@@ -24,4 +24,14 @@ Aşağıdaki araçların kurulu olması gerekmektedir:
 ## Projenin Çalıştırlması
 ```sh
 npm install
+```
+
+```sh
 ng serve -o
+```
+
+### Proje Bazı Arayüz Görselleri
+![1 (3)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/c9d35bfb-7fbb-48b7-992c-3e180c7e896e)
+![1 (1)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/6212664c-c896-45d4-97d2-69935d3039a6)
+![1 (2)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/c2756294-ba10-42ff-830b-4197df16cead)
+
