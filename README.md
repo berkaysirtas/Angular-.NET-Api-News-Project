@@ -20,3 +20,8 @@ Aşağıdaki araçların kurulu olması gerekmektedir:
 - .NET Core SDK 5.0
 - Node.js
 - Angular CLI
+
+## Projenin Çalıştırlması
+```sh
+npm install
+ng serve -o
