@@ -30,8 +30,16 @@ npm install
 ng serve -o
 ```
 
+### Proje Tanıtıcı Video
+https://youtu.be/L45FWxd3Nyc
+
+
 ### Proje Bazı Arayüz Görselleri
-![1 (3)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/c9d35bfb-7fbb-48b7-992c-3e180c7e896e)
-![1 (1)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/6212664c-c896-45d4-97d2-69935d3039a6)
-![1 (2)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/c2756294-ba10-42ff-830b-4197df16cead)
+![1 (2)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/a23e1301-1507-4909-83d1-99b4d185e58c)
+![1 (3)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/4a9c3aa9-7475-4597-9add-bb987f4d1015)
+![1 (1)](https://github.com/berkaysirtas/Angular-.NET-Api-News-Project/assets/110261956/fd714c74-192a-481c-8122-d425d8c18e57)
+
+
+
+
 
